@@ -1,3 +1,5 @@
+[![Clojars Project](https://img.shields.io/clojars/v/net.roghetti/itt.svg)](https://clojars.org/net.roghetti/itt)
+
 # ITT – Idempotent Task Triggers for Clojure
 
 Sometimes you just have the need to trigger an idempotent task!

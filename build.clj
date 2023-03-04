@@ -16,7 +16,8 @@
                 :lib lib
                 :version version
                 :basis basis
-                :src-dirs ["src"]})
+                :src-dirs ["src"]
+                :scm {:url "https://github.com/Roghetti/itt"}})
   (b/copy-dir {:src-dirs ["src"]
                :target-dir class-dir})
   (b/jar {:class-dir class-dir
