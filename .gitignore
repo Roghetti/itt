@@ -1,1 +1,6 @@
 .cpcache/
+.envrc
+.nrepl-port
+itt.jar
+pom.xml
+target/
