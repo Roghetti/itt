@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
- :aliases {:dev {:extra-paths ["dev-src" "test"]
+ :aliases {:dev {:extra-paths ["test"]
                  :extra-deps {org.clojure/tools.namespace {:mvn/version "1.3.0"}}}
            :test {:extra-paths ["test"]
                   :extra-deps {io.github.cognitect-labs/test-runner

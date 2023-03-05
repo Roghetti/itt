@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-rm -f pom.xml
+rm -f itt.jar pom.xml
 rm -rf target

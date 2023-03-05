@@ -15,3 +15,4 @@ cp ziptmp/META-INF/maven/net.roghetti/itt/pom.xml pom.xml
 touch -t 198001010000 pom.xml
 rm -rf ziptmp
 strip-nondeterminism -t jar target/itt.jar
+cp target/itt.jar itt.jar
